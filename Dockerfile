@@ -13,8 +13,3 @@ RUN mkdir /var/run/mysqld
 RUN chown gitpod:gitpod /var/run/apache2 /var/lock/apache2 /var/run/mysqld
 
 RUN addgroup gitpod www-data
-
-RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-
-RUN chmod +x wp-cli.phar
-RUN sudo mv wp-cli.phar /usr/local/bin/wp
