@@ -10,7 +10,7 @@
             <p id=demo>Hello World!</p>
 
             <script type="text/javascript" src="myscripts.js"></script>
-            <button onclick="myFunction();">Click Me!</button>
+            <button onclick="myFunction();">Click Me to turn text blue</button>
             
     </body>
 </html>
