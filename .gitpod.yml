@@ -16,7 +16,7 @@ tasks:
   - name: Apache
     command: >
         apachectl start;
-  - name: WordPress
+  - name: Lamp
     command: >
         chmod GITPOD_REPO_ROOT/.htaccess;
         cd $GITPOD_REPO_ROOT;
