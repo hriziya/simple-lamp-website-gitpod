@@ -9,6 +9,7 @@ Apache
 MySql
 - User: root
 - Pass: (no password)
+- Command: mysql -u root -p
 
 This project was forked from [https://github.com/meysholdt/laravel-apache-mysql-php-in-gitpod-example](https://github.com/meysholdt/laravel-apache-mysql-php-in-gitpod-example) and adapted to WordPress :)
 
