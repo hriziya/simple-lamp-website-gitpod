@@ -1,10 +1,7 @@
 FROM gitpod/workspace-full
 
 ### LAM ###
-RUN apt-get update && apt-get install -yq \
-        apache2 \
-        mysql-server \
-        && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
+RUN apt-get update && apt-get install -y apache2
 
 RUN echo "include /workspace/lamp/apache/apache.conf" > /etc/apache2/apache2.conf
 RUN echo ". /workspace/lamp/apache/envvars" > /etc/apache2/envvars
