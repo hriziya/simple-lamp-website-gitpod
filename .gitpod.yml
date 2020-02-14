@@ -3,14 +3,14 @@ image:
 ports:
   - port: 8080
     onOpen: open-preview
-  - port: 3306
+  - port: 3306 # Expose the MySQL port
     onOpen: ignore
 checkoutLocation: "lamp"
 workspaceLocation: "."
 tasks:
   - name: MySQL
     command: >
-        mysqld --initialize-insecure;
+        mysqld --initialize-insecure; # no root password is generated
         mysqld &
         sleep 5;
         cd $GITPOD_REPO_ROOT;
@@ -19,5 +19,5 @@ tasks:
         apachectl start;
   - name: Lamp
     command: >
-        chmod 777 $GITPOD_REPO_ROOT/.htaccess;
+        chmod GITPOD_REPO_ROOT/.htaccess;
         cd $GITPOD_REPO_ROOT;
