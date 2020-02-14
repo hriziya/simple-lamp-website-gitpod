@@ -19,5 +19,5 @@ tasks:
         apachectl start;
   - name: Lamp
     command: >
-        chmod GITPOD_REPO_ROOT/.htaccess;
+        chmod 660 $GITPOD_REPO_ROOT/.htaccess;
         cd $GITPOD_REPO_ROOT;
