@@ -3,7 +3,7 @@ FROM gitpod/workspace-mysql
 USER root
 
 #RUN apt-get update && apt-get -y install apache2 mysql-server php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc
-RUN apt-get update && apt-get -y install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc
+#RUN apt-get update && apt-get -y install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc
 
 
 RUN echo "include /workspace/lamp/apache/apache.conf" > /etc/apache2/apache2.conf
