@@ -8,10 +8,7 @@ Using:
   
 Apache
   
-MySql
-- User: root
-- Pass: (no password)
-- Command: mysql -u root -p
+MySQL
 
 PHP
 
