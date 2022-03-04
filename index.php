@@ -1,16 +1,10 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        
-    </head>
-    <body>
-
-            <h1>My Website</h1>
-            <p id=demo>Hello World!</p>
-
-            <script type="text/javascript" src="myscripts.js"></script>
-            <button onclick="myFunction();">Click Me to turn text blue</button>
-            
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP - Hello, World!</title>
+</head>
+<body>
+        <h1><?php echo 'Hello, World!'; ?></h1>
+</body>
 </html>
