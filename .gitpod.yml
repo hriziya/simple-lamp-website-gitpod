@@ -10,3 +10,7 @@ tasks:
   - name: Apache
     command: >
       apachectl start;
+
+vscode:
+  extensions:
+    - bmewburn.vscode-intelephense-client
