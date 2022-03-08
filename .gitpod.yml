@@ -10,7 +10,9 @@ tasks:
   - name: Apache
     command: >
       apachectl start;
-
+  - command: >
+      gp open public/index.php;gp preview $(gp url 8001);
+    
 vscode:
   extensions:
     - bmewburn.vscode-intelephense-client
