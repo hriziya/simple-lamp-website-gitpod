@@ -4,14 +4,14 @@ ports:
   - port: 3306
     onOpen: ignore
   - port: 8001
-    onOpen: ignore
+    onOpen: open-preview
     
 tasks:
   - name: Apache
     command: >
       apachectl start;
   - command: >
-      gp open public/index.php;gp preview $(gp url 8001);
+      gp open public/index.php;
     
 vscode:
   extensions:
