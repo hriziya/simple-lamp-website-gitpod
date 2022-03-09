@@ -1,6 +1,6 @@
 # LAMP on Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/danielcregg/gitpod-lamp)
+To open this website using Gitpod put gitpod.io/# before the url in the browser
 
 This repo creates a LAMP (Linux, Apache, MySQL and PHP) Server in Gitpod.  
 Use this repository to host a website on [Gitpod](https://gitpod.io). There is a default webpage (index.php) in the public folder.  
