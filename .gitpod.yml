@@ -7,7 +7,9 @@ ports:
     onOpen: open-preview
     
 tasks:
-  - name: setup
+  - openMode: split-right
     command: >
       apachectl start &&
       gp open public/index.php
+    name: Web Server
+    
