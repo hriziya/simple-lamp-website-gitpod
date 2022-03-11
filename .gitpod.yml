@@ -10,6 +10,7 @@ tasks:
   - openMode: split-right
     command: >
       apachectl start &&
+      cd public && 
       composer install &&
       gp open public/index.php
     name: Web Server
