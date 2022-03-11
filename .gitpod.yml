@@ -9,4 +9,5 @@ ports:
 tasks:
   - name: setup
     command: >
+      service apache2 start &&
       gp open public/index.php
