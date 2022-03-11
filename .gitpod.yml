@@ -6,12 +6,11 @@ ports:
   - port: 8001
     onOpen: open-preview
     
+checkoutLocation: "web"
+workspaceLocation: "."
 tasks:
-  - openMode: split-right
+  - name: Web Server
     command: >
       apachectl start &&
-      cd public && 
       composer install &&
-      gp open public/index.php
-    name: Web Server
-    
+      gp open index.php
